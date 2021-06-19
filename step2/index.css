@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.centered-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 500px;
+    height: 335px;
+    background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+
+    padding: 24px 18px;
+}
+
+.form-header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+    margin: 0;
+    padding: 0;
+    margin-bottom: 12px;
+    height: 40px;
+}
+
+.fullsize {
+    width: 100%;
+}
+
+.label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    height: 26px;
+
+    color: #171717;
+    margin-bottom: 2px;
+}
+
+.input {
+    background: #FFFFFF;
+    border: 1px solid #006A64;
+    border: 1px solid #006A64;
+
+    box-sizing: border-box;
+    border-radius: 2px;
+
+    height: 26px;
+
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.button-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+.button-text-emphasized {
+    color: #006A64;
+}
+
+.button {
+    margin-top: 4px;
+
+    background: #FFFFFF;
+    border: 1px solid #006A64;
+    
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    height: 37px;
+    width: 209px;
+}
+
+.button-cancel {
+    margin-right: 42px;
+    border: 1px solid #9D9D9D;
+}
